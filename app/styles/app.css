@@ -3,6 +3,11 @@ html, body {
     font-family: Georgia, serif;
 }
 
+nav {
+    text-align: right;
+    margin-bottom: 8px;
+}
+
 h1 {
     font-size: 22px;
 }

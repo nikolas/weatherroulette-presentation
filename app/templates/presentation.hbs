@@ -1,3 +1,8 @@
+<nav>
+    <button {{action 'prevSlide'}}>&lt;</button>
+    <button {{action 'nextSlide'}} autofocus>&gt;</button>
+</nav>
+
 <div class="presentation-slide-title">
     Slide {{currentSlide.id}} / {{model.length}}
 </div>
@@ -7,11 +12,6 @@
 </div>
 
 {{outlet}}
-
-<nav>
-    <button {{action 'prevSlide'}}>&lt;</button>
-    <button {{action 'nextSlide'}} autofocus>&gt;</button>
-</nav>
 
 <footer>
     <p>
