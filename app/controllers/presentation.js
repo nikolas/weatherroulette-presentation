@@ -21,7 +21,7 @@ export default Ember.ArrayController.extend({
         if (prevSlide) {
             return prevSlide;
         } else {
-            return currentSlide
+            return currentSlide;
         }
     }.property('currentSlide'),
     
@@ -32,7 +32,7 @@ export default Ember.ArrayController.extend({
         if (nextSlide) {
             return nextSlide;
         } else {
-            return currentSlide
+            return currentSlide;
         }
     }.property('currentSlide'),
 
