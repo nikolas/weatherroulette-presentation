@@ -1,0 +1,14 @@
+<div class="presentation-slide-title">
+    Slide {{id}}
+</div>
+
+<div class="presentation-slide-body">
+    {{{body}}}
+</div>
+
+{{outlet}}
+
+<nav>
+    {{#link-to 'slide' prevId}}&lt;{{/link-to}}
+    {{#link-to 'slide' nextId}}&gt;{{/link-to}}
+</nav>

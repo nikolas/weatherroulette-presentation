@@ -1,4 +1,10 @@
-{{{currentSlide.body}}}
+<div class="presentation-slide-title">
+    Slide {{currentSlide.id}} / {{model.length}}
+</div>
+
+<div class="presentation-slide-body">
+    {{{currentSlide.body}}}
+</div>
 
 {{outlet}}
 
@@ -9,6 +15,7 @@
 
 <footer>
     <p>
-        See this presentation at <a {{bind-attr href=url}}>{{url}}</a>
+        See this presentation at <a {{bind-attr href=url}}
+            >nikolas.us.to/weatherroulette/</a>
     </p>
 </footer>

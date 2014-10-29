@@ -16,3 +16,11 @@ footer {
 footer p {
     text-align: center;
 }
+
+.presentation-slide-title {
+    text-align: right;
+}
+
+.presentation-slide-body {
+    font-size: 18px;
+}
