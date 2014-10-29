@@ -63,6 +63,23 @@ Slide.reopenClass({
                 '<p>And the weather observations are also displayed as a ' +
                 'line graph:</p>' +
                 '<img width="650" src="graph.png" />'
+        },
+        {
+            id: 5,
+            body: '<p>Also, the application contains different games ' +
+                'containing different forecast and climate data for ' +
+                'students to play:</p>' +
+                '<img width="650" src="games.png" />'
+        },
+        {
+            id: 6,
+            body: '<h1>Why was Ember useful?</h1>' +
+                '<ul>' +
+                '<dt><em>Computed Properties</em></dt>' +
+                '<dd><ul><li>The betting inputs give reliable feedback to the ' +
+                'user and never mess up.</li></ul></dd>' +
+                '</ul>' +
+                '<h1>Where did Ember seem to get in the way?</h1>'
         }
     ]
 });
