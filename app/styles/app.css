@@ -29,3 +29,22 @@ footer p {
 .presentation-slide-body {
     font-size: 18px;
 }
+
+.blink {
+    width: 140px;
+    height: 140px;
+    padding: 20px;
+    font-weight: bold;
+    background: red;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    animation: blink 1s steps(5, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+    to { visibility: hidden; }
+}
+@-webkit-keyframes blink {
+    to { visibility: hidden; }
+}

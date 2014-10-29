@@ -37,14 +37,19 @@ Slide.reopenClass({
 
                 '<img height="100" src="gnu.png" ' +
                 'style="margin-bottom: -40px;" />' +
-                '</h2>'
+                '</h2>' +
+
+                '<span class="blink">Seeking JavaScript programmers</span>'
         },
         {
             id: 3,
             body: '<h1>Weather Roulette?</h1>' +
                 '<p>' +
-                'A climate prediction game' +
-                '</p>'
+                'A climate prediction game ' +
+                '</p>' +
+                '<p><a href="https://github.com/ccnmtl/wacep" target="_blank"' +
+                '>github.com/ccnmtl/wacep</a></p>'
+
         }
     ]
 });
