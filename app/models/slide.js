@@ -15,19 +15,53 @@ Slide.reopenClass({
                 '>github.com/nikolas</a></h2>' +
 
                 '<p>' +
-                'I learned how to use Ember while working as a developer at ' +
+                'I learned how to use Ember while working at ' +
                 '<a href="http://to.be" target="_blank">' +
                 '<img height="100" src="tobe.svg" />' +
                 '</a></p>' +
 
-                '<p>and now I\'m a programmer at ' +
+                '<p>and now I work at ' +
                 '<a href="http://ccnmtl.columbia.edu/" target="_blank">' +
                 '<img height="100" src="ccnmtl.png" />' +
-                '</a>.' +
+                '</a> as part of the programming team.' +
                 '</p>'
         },
         {
             id: 2,
+            body: '<h1>What is ' +
+                '<img height="100" src="ccnmtl.png" />?</h1>' +
+
+                '<p style="font-size: 1.2em;">' +
+                'The <strong>C</strong>olumbia ' +
+                '<strong>C</strong>enter ' +
+                'for <strong>N</strong>ew <strong>M</strong>edia ' +
+                '<strong>T</strong>eaching and <strong>L</strong>earning' +
+                '</p>' +
+
+                '<p>' +
+                'An office of around 30 professionals at Columbia University.' +
+                '</p>' +
+
+                '<p>' +
+                'Explores the refinement of teaching and learning, possibly ' +
+                'with technology or media.' +
+                '</p>' +
+
+                '<p>Here\'s a few projects from CCNMTL:</p>' +
+                '<ul>' +
+                '<li><a href="http://mediathread.info/" target="_blank"' +
+                '>mediathread.info</a>' +
+                '<img style="margin-left: 8px; margin-bottom: -40px;" ' +
+                'src="mediathread.png" />' +
+                '</li>' +
+
+                '<li style="margin-top: 45px;">More here: ' +
+                '<a href="http://ccnmtl.columbia.edu/portfolio/"' +
+                '>ccnmtl.columbia.edu/portfolio/</a></li>' +
+                '</ul>'
+        },
+        {
+            id: 3,
             body: '<h1>First, a Public Service Announcement</h1>' +
 
                 '<h2>' +
@@ -42,7 +76,7 @@ Slide.reopenClass({
                 '<span class="blink">Seeking JavaScript programmers</span>'
         },
         {
-            id: 3,
+            id: 4,
             body: '<h1>Weather Roulette?</h1>' +
                 '<p><a href="https://github.com/ccnmtl/wacep" target="_blank"' +
                 '>github.com/ccnmtl/wacep</a></p>' +
@@ -56,7 +90,7 @@ Slide.reopenClass({
                 '<img width="650" src="forecast.png" />'
         },
         {
-            id: 4,
+            id: 5,
             body: '<p>The player\'s progress is displayed below the betting ' +
                 'area as a spreadsheet:</p>' +
                 '<img width="650" src="spreadsheet.png" />' +
@@ -65,14 +99,14 @@ Slide.reopenClass({
                 '<img width="650" src="graph.png" />'
         },
         {
-            id: 5,
+            id: 6,
             body: '<p>Also, the application contains different games ' +
                 'containing different forecast and climate data for ' +
                 'students to play:</p>' +
                 '<img width="650" src="games.png" />'
         },
         {
-            id: 6,
+            id: 7,
             body: '<h1>Why was Ember useful?</h1>' +
                 '<ul>' +
                 '<dt><em>Computed Properties</em></dt>' +
