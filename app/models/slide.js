@@ -18,9 +18,9 @@ Slide.reopenClass({
                 'I learned how to use Ember while working as a developer at ' +
                 '<a href="http://to.be" target="_blank">' +
                 '<img height="100" src="tobe.svg" />' +
-                '</a> ' +
+                '</a></p>' +
 
-                'and now I\'m a programmer at ' +
+                '<p>and now I\'m a programmer at ' +
                 '<a href="http://ccnmtl.columbia.edu/" target="_blank">' +
                 '<img height="100" src="ccnmtl.png" />' +
                 '</a>.' +
