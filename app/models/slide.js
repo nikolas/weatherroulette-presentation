@@ -53,7 +53,16 @@ Slide.reopenClass({
                 '<img width="650" src="items.png" />' +
 
                 '<p>Based on simulated weather forecasts:</p>' +
-                '<img width="400" src="forecast.png" />'
+                '<img width="650" src="forecast.png" />'
+        },
+        {
+            id: 4,
+            body: '<p>The player\'s progress is displayed below the betting ' +
+                'area as a spreadsheet:</p>' +
+                '<img width="650" src="spreadsheet.png" />' +
+                '<p>And the weather observations are also displayed as a ' +
+                'line graph:</p>' +
+                '<img width="650" src="graph.png" />'
         }
     ]
 });
