@@ -28,7 +28,7 @@ Slide.reopenClass({
         },
         {
             id: 2,
-            body: '<h1>A Public Service Announcement</h1>' +
+            body: '<h1>First, a Public Service Announcement</h1>' +
 
                 '<h2>' +
                 '<a href="http://www.gnu.org/software/librejs/" ' +
@@ -44,12 +44,16 @@ Slide.reopenClass({
         {
             id: 3,
             body: '<h1>Weather Roulette?</h1>' +
-                '<p>' +
-                'A climate prediction game ' +
-                '</p>' +
                 '<p><a href="https://github.com/ccnmtl/wacep" target="_blank"' +
-                '>github.com/ccnmtl/wacep</a></p>'
+                '>github.com/ccnmtl/wacep</a></p>' +
 
+                '<p>A climate prediction game.</p>' +
+
+                '<p>Students invest in items of clothing:</p>' +
+                '<img width="650" src="items.png" />' +
+
+                '<p>Based on simulated weather forecasts:</p>' +
+                '<img width="400" src="forecast.png" />'
         }
     ]
 });
