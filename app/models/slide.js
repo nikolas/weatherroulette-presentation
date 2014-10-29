@@ -30,7 +30,7 @@ Slide.reopenClass({
             id: 2,
             presentation: 1,
             title: 'Slide 1',
-            body: '<h1>Who am I?</h1>' +
+            body: '<h1>A Public Service Announcement</h1>' +
                 '<h2><a href="http://www.gnu.org/software/librejs/" ' +
                 'target="_blank"' +
                 '>gnu.org/software/librejs</a>'
