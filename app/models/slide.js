@@ -47,8 +47,7 @@ Slide.reopenClass({
                 '</p>' +
                 
                 '<p>' +
-                'Unlike most educational technology organizations, we develop ' +
-                'custom software and original multimedia content.' +
+                'We develop custom educational software and original multimedia content.' +
                 '</p>' +
 
                 '<p>Here\'s a few projects from CCNMTL:</p>' +
