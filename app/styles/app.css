@@ -12,6 +12,10 @@ h1 {
     font-size: 22px;
 }
 
+p {
+    max-width: 650px;
+}
+
 footer {
     width: 100%;
     position: fixed;
