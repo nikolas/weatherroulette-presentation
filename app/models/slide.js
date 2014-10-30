@@ -186,6 +186,20 @@ Slide.reopenClass({
         },
         {
             id: 10,
+            body: '<h1>Before and After</h1>' +
+                '<p>' +
+                'Weather Roulette is currently being used as an Excel ' +
+                'spreadsheet, so this game can be thought of as an improved ' +
+                'version of that.' +
+                '</p>' +
+                '<div class="presentation-before-after">' +
+                '<img width="550" src="before.png" /> ' +
+                '<strong style="font-size: 42px;">&rarr;</strong> ' +
+                '<img width="550" src="after.png" />' +
+                '</div>'
+        },
+        {
+            id: 11,
             body: '<h1>Demo</h1>' +
                 '<p>' +
                 '<a href="http://wacep.stage.ccnmtl.columbia.edu/site_media/WeatherRoulette/dist/" ' +

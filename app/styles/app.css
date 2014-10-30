@@ -16,6 +16,10 @@ ul li, p {
     max-width: 650px;
 }
 
+.presentation-before-after img {
+    vertical-align: top;
+}
+
 footer {
     width: 100%;
     position: fixed;
