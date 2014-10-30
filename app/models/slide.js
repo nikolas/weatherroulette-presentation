@@ -97,7 +97,8 @@ Slide.reopenClass({
             '</ul>' +
 
             '<p>' +
-            'WACEP is intended to address the urgency of climate change &mdash; particularly in the places with ' +
+            'WACEP is intended to address the urgency of climate change and adaptation strategies &mdash; ' +
+            'particularly in places with ' +
             'limited fresh water supply.' +
             '</p>' +
             
