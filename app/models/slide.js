@@ -39,12 +39,16 @@ Slide.reopenClass({
                 '</p>' +
 
                 '<p>' +
-                'An office of around 30 professionals at Columbia University.' +
+                'CCNMTL has been around for 15 years and we have 35 people on our team.' +
                 '</p>' +
 
                 '<p>' +
-                'Explores the refinement of teaching and learning, possibly ' +
-                'with technology or media.' +
+                'Dedicated to the <strong>purposeful</strong> use of technology in education. ' +
+                '</p>' +
+                
+                '<p>' +
+                'Unlike most educational technology organizations, we develop ' +
+                'custom software and original multimedia content.' +
                 '</p>' +
 
                 '<p>Here\'s a few projects from CCNMTL:</p>' +
@@ -60,6 +64,7 @@ Slide.reopenClass({
                 '>ccnmtl.columbia.edu/portfolio/</a></li>' +
                 '</ul>'
         },
+        // Add slide about WACEP
         {
             id: 3,
             body: '<h1>First, a Public Service Announcement</h1>' +
