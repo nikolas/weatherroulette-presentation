@@ -167,6 +167,13 @@ Slide.reopenClass({
                 'The betting inputs give reliable feedback to the ' +
                 'user and never mess up. (Except for some rounding/percentage ' +
                 'bugs, but that\'s my fault not Ember\'s.)' +
+                '</li></ul></dd>' +
+
+                '<dd><ul><li>' +
+                'The spreadsheet was easily implemented as a series of ' +
+                'computed arrays instead of it\'s own object with a ' +
+                'separate controller. Good idea or bad idea? Either way, ' +
+                'it\'s simple and it works.' +
                 '</li></ul></dd>'
 
         },
