@@ -113,7 +113,10 @@ Slide.reopenClass({
                 '<p><a href="https://github.com/ccnmtl/wacep" target="_blank"' +
                 '>github.com/ccnmtl/wacep</a></p>' +
 
-                '<p>A climate prediction game.</p>' +
+                '<p>This is a climate prediction game that\'s a part of the WACEP curriculum. ' +
+                'Weather Roulette is meant to teach students about probabalistic reasoning, forecast reliabality, ' +
+                'and decision-making tools in relation to weather and climate.' +
+                '</p>' +
 
                 '<p>Students invest in items of clothing:</p>' +
                 '<img width="650" src="items.png" />' +
