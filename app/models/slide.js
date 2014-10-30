@@ -97,7 +97,7 @@ Slide.reopenClass({
             '</ul>' +
 
             '<p>' +
-            'WACEP is intended to address the urgency of climate change and adaptation strategies &mdash; ' +
+            'WACEP is intended to address the urgency of climate change and adaptation strategies &ndash; ' +
             'particularly in places with ' +
             'limited fresh water supply.' +
             '</p>' +
@@ -183,6 +183,17 @@ Slide.reopenClass({
                 'I know there\'s ways to customize Ember Data\'s idea of ' +
                 'the API, but I didn\'t figure that out and customizing ' +
                 'django-rest-framework worked out fine.' +
+                '</p>' +
+                '<h3><em>"JSON API" &ndash; A solution?</em></h3>' +
+                '<p>' +
+                'JSON API ' +
+                '<a href="http://jsonapi.org/" target="_blank" ' +
+                '>&lt;jsonapi.org&gt;</a> ' +
+                'is a proposal to standardize the way client-side ' +
+                'applications interact with servers when using JSON. ' +
+                'Both Ember Data and django-rest-framework have people ' +
+                'writing json-api compatible adapters. Maybe someday ' +
+                'they will meet in the middle.' +
                 '</p>'
         },
         {
