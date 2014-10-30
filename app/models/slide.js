@@ -13,6 +13,8 @@ Slide.reopenClass({
                 '<h1>Nik Nyby</h1>' +
                 '<h2><a href="https://github.com/nikolas" target="_blank"' +
                 '>github.com/nikolas</a></h2>' +
+                '<h2><a href="mailto:niknyby@gmail.com"' +
+                '>niknyby@gmail.com</a></h2>' +
 
                 '<p>' +
                 'I learned how to use Ember while working at ' +
