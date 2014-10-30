@@ -200,9 +200,9 @@ Slide.reopenClass({
             id: 10,
             body: '<h1>Before and After</h1>' +
                 '<p>' +
-                'Weather Roulette is currently being used as an Excel ' +
-                'spreadsheet, so this game can be thought of as an improved ' +
-                'version of that.' +
+                'The Weather Roulette concept is currently being played as ' +
+                'an Excel spreadsheet, so this game can be thought of as an ' +
+                'improved version of that.' +
                 '</p>' +
                 '<div class="presentation-before-after">' +
                 '<img width="550" src="before.png" /> ' +
