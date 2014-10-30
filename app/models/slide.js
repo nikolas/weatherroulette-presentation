@@ -9,6 +9,21 @@ Slide.reopenClass({
     FIXTURES: [
         {
             id: 1,
+            body: '<h1>First, a Public Service Announcement</h1>' +
+
+                '<h2>' +
+                '<a href="http://www.gnu.org/software/librejs/" ' +
+                'target="_blank"' +
+                '>gnu.org/software/librejs</a>' +
+
+                '<img height="100" src="gnu.png" ' +
+                'style="margin-bottom: -40px;" />' +
+                '</h2>' +
+
+                '<span class="blink">Seeking JavaScript programmers</span>'
+        },
+        {
+            id: 2,
             body: '<h1>Who am I?</h1>' +
                 '<h1>Nik Nyby</h1>' +
                 '<h2><a href="https://github.com/nikolas" target="_blank"' +
@@ -29,7 +44,7 @@ Slide.reopenClass({
                 '</p>'
         },
         {
-            id: 2,
+            id: 3,
             body: '<h1>What is ' +
                 '<img height="100" src="ccnmtl.png" />?</h1>' +
 
@@ -71,24 +86,17 @@ Slide.reopenClass({
                 '>ccnmtl.columbia.edu/portfolio/</a></li>' +
                 '</ul>'
         },
-        // Add slide about WACEP
-        {
-            id: 3,
-            body: '<h1>First, a Public Service Announcement</h1>' +
-
-                '<h2>' +
-                '<a href="http://www.gnu.org/software/librejs/" ' +
-                'target="_blank"' +
-                '>gnu.org/software/librejs</a>' +
-
-                '<img height="100" src="gnu.png" ' +
-                'style="margin-bottom: -40px;" />' +
-                '</h2>' +
-
-                '<span class="blink">Seeking JavaScript programmers</span>'
-        },
         {
             id: 4,
+            body: '<ul>' +
+            '<li>WACEP is a series of short courses in Climate Risk Management and Water Resource Management.</li>' +
+            '<li>A partnership between Caribbean universities, Columbia\'s Earth Institute, and UMass Amherst.</li>' +
+            '<li>WACEP is funded by the US Department of State, and managed by USAID and HED.</li>' +
+            '<li><a href="http://waceponline.org/credits/" target="_blank">waceponline.org/credits/</a></li>' +
+            '</ul>'
+        },
+        {
+            id: 5
             body: '<h1>Weather Roulette?</h1>' +
                 '<p><a href="https://github.com/ccnmtl/wacep" target="_blank"' +
                 '>github.com/ccnmtl/wacep</a></p>' +
@@ -102,7 +110,7 @@ Slide.reopenClass({
                 '<img width="650" src="forecast.png" />'
         },
         {
-            id: 5,
+            id: 6,
             body: '<p>The player\'s progress is displayed below the betting ' +
                 'area as a spreadsheet:</p>' +
                 '<img width="650" src="spreadsheet.png" />' +
@@ -111,14 +119,14 @@ Slide.reopenClass({
                 '<img width="650" src="graph.png" />'
         },
         {
-            id: 6,
+            id: 7,
             body: '<p>Also, the application contains different games ' +
                 'containing different forecast and climate data for ' +
                 'students to play:</p>' +
                 '<img width="650" src="games.png" />'
         },
         {
-            id: 7,
+            id: 8,
             body: '<h1>Why was Ember useful?</h1>' +
                 '<dt><em>Organization</em></dt>' +
                 '<dd><ul><li>' +
@@ -144,7 +152,7 @@ Slide.reopenClass({
                 '</li></ul></dd>'
         },
         {
-            id: 8,
+            id: 9,
             body: '<h1>Where did Ember seem to get in the way?</h1>' +
                 '<p>' +
                 'Connecting Ember Data to Django ' +
@@ -162,7 +170,7 @@ Slide.reopenClass({
                 '</p>'
         },
         {
-            id: 9,
+            id: 10,
             body: '<h1>Demo</h1>' +
                 '<p>' +
                 '<a href="http://wacep.stage.ccnmtl.columbia.edu/site_media/WeatherRoulette/dist/" ' +
