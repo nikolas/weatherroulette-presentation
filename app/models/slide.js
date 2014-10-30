@@ -108,6 +108,12 @@ Slide.reopenClass({
         {
             id: 7,
             body: '<h1>Why was Ember useful?</h1>' +
+                '<dt><em>Organization</em></dt>' +
+                '<dd><ul><li>' +
+                'Using ember-cli is a good way to keep the application ' +
+                'organized without having to think about it too much. ' +
+                '</li></ul></dd>' +
+
                 '<dt><em>Computed Properties</em></dt>' +
                 '<dd><ul><li>' +
                 'The betting inputs give reliable feedback to the ' +
@@ -130,8 +136,9 @@ Slide.reopenClass({
             body: '<h1>Where did Ember seem to get in the way?</h1>' +
                 '<p>' +
                 'Connecting Ember Data to Django ' +
-                '(using django-rest-framework) wasn\'t so straight-forward, ' +
-                'as I expected. I ended up overriding django-rest-framework ' +
+                '(using django-rest-framework) wasn\'t so straight-forward. ' +
+                'I did expect there to be some hurdles here. I ended up ' +
+                'overriding django-rest-framework ' +
                 'in random places to make it behave like ' +
                 'ActiveModel::Serializer from Rails so I can use ' +
                 '<code>DS.RESTAdapter</code>.' +
