@@ -96,7 +96,7 @@ Slide.reopenClass({
             '</ul>'
         },
         {
-            id: 5
+            id: 5,
             body: '<h1>Weather Roulette?</h1>' +
                 '<p><a href="https://github.com/ccnmtl/wacep" target="_blank"' +
                 '>github.com/ccnmtl/wacep</a></p>' +
