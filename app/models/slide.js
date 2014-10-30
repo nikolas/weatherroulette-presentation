@@ -118,7 +118,7 @@ Slide.reopenClass({
                 'and decision-making tools in relation to weather and climate.' +
                 '</p>' +
 
-                '<p>Students invest in items of clothing:</p>' +
+                '<p>Students invest in items of clothing, which represent weather outcomes:</p>' +
                 '<img width="650" src="items.png" />' +
 
                 '<p>Based on simulated weather forecasts:</p>' +
