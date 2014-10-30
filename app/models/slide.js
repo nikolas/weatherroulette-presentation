@@ -88,12 +88,23 @@ Slide.reopenClass({
         },
         {
             id: 4,
-            body: '<ul>' +
+            body: '<h1>WACEP</h1>' +
+            '<ul>' +
             '<li>WACEP is a series of short courses in Climate Risk Management and Water Resource Management.</li>' +
             '<li>A partnership between Caribbean universities, Columbia\'s Earth Institute, and UMass Amherst.</li>' +
             '<li>WACEP is funded by the US Department of State, and managed by USAID and HED.</li>' +
             '<li><a href="http://waceponline.org/credits/" target="_blank">waceponline.org/credits/</a></li>' +
-            '</ul>'
+            '</ul>' +
+
+            '<p>' +
+            'WACEP is intended to address the urgency of climate change &mdash; particularly in the places with ' +
+            'limited fresh water supply.'
+            '</p>' +
+            
+            '<p>' +
+            'The courses are currently only offered for credit ($), but they intend to open them to the public ' +
+            'next year.' +
+            '</p>'
         },
         {
             id: 5,
