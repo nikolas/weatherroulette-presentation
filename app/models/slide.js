@@ -149,13 +149,6 @@ Slide.reopenClass({
                 'organized without having to think about it too much. ' +
                 '</li></ul></dd>' +
 
-                '<dt><em>Computed Properties</em></dt>' +
-                '<dd><ul><li>' +
-                'The betting inputs give reliable feedback to the ' +
-                'user and never mess up. (Except for some rounding/percentage ' +
-                'bugs, but that\'s my fault not Ember\'s.)' +
-                '</li></ul></dd>' +
-
                 '<dt><em>Testing</em></td>' +
                 '<dd><ul><li>' +
                 'I don\'t have extensive unit tests written for Weather ' +
@@ -164,7 +157,15 @@ Slide.reopenClass({
                 'ensures the ' +
                 'test suite is kept somewhat up to date as I develop the ' +
                 'application.' +
+                '</li></ul></dd>' +
+
+                '<dt><em>Computed Properties</em></dt>' +
+                '<dd><ul><li>' +
+                'The betting inputs give reliable feedback to the ' +
+                'user and never mess up. (Except for some rounding/percentage ' +
+                'bugs, but that\'s my fault not Ember\'s.)' +
                 '</li></ul></dd>'
+
         },
         {
             id: 9,
