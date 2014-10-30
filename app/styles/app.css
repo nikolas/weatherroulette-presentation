@@ -12,7 +12,7 @@ h1 {
     font-size: 22px;
 }
 
-p {
+ul li, p {
     max-width: 650px;
 }
 
