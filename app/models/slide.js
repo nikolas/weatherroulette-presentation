@@ -108,12 +108,49 @@ Slide.reopenClass({
         {
             id: 7,
             body: '<h1>Why was Ember useful?</h1>' +
-                '<ul>' +
                 '<dt><em>Computed Properties</em></dt>' +
-                '<dd><ul><li>The betting inputs give reliable feedback to the ' +
-                'user and never mess up.</li></ul></dd>' +
-                '</ul>' +
-                '<h1>Where did Ember seem to get in the way?</h1>'
+                '<dd><ul><li>' +
+                'The betting inputs give reliable feedback to the ' +
+                'user and never mess up. (Except for some rounding/percentage ' +
+                'bugs, but that\'s my fault not Ember\'s.)' +
+                '</li></ul></dd>' +
+
+                '<dt><em>Testing</em></td>' +
+                '<dd><ul><li>' +
+                'I don\'t have extensive unit tests written for Weather ' +
+                'Roulette, but using ember-cli\'s ' +
+                '<code>generate</code> and <code>destroy</code> commands ' +
+                'ensures the ' +
+                'test suite is kept somewhat up to date as I develop the ' +
+                'application.' +
+                '</li></ul></dd>'
+        },
+        {
+            id: 8,
+            body: '<h1>Where did Ember seem to get in the way?</h1>' +
+                '<p>' +
+                'Connecting Ember Data to Django ' +
+                '(using django-rest-framework) wasn\'t so straight-forward, ' +
+                'as I expected. I ended up overriding django-rest-framework ' +
+                'in random places to make it behave like ' +
+                'ActiveModel::Serializer from Rails so I can use ' +
+                '<code>DS.RESTAdapter</code>.' +
+                '</p>' +
+                '<p>' +
+                'I know there\'s ways to customize Ember Data\'s idea of ' +
+                'the API, but I didn\'t figure that out and customizing ' +
+                'django-rest-framework worked out fine.' +
+                '</p>'
+        },
+        {
+            id: 9,
+            body: '<h1>Demo</h1>' +
+                '<p>' +
+                '<a href="http://wacep.stage.ccnmtl.columbia.edu/site_media/WeatherRoulette/dist/" ' +
+                'target="_blank">' +
+                'wacep.stage.ccnmtl.columbia.edu/site_media/WeatherRoulette/dist/' +
+                '</a>' +
+                '</p>'
         }
     ]
 });
