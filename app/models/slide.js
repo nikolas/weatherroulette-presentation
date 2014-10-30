@@ -49,6 +49,12 @@ Slide.reopenClass({
                 '<p>' +
                 'We develop custom educational software and original multimedia content.' +
                 '</p>' +
+                
+                '<p>' +
+                'We rely on a range of languages, frameworks, and services. ' +
+                'We\'ve mostly used Backbone for complex client-side applications, and ' +
+                'Weather Roulette is CCNMTL\'s first Ember project.' +
+                '</p>' +
 
                 '<p>Here\'s a few projects from CCNMTL:</p>' +
                 '<ul>' +
