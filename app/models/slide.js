@@ -91,7 +91,7 @@ Slide.reopenClass({
         },
         {
             id: 4,
-            body: '<h1>WACEP</h1>' +
+            body: '<img width="650" src="wacep.png" />' +
             '<ul>' +
             '<li>WACEP is a series of short courses in Climate Risk Management and Water Resource Management.</li>' +
             '<li>A partnership between Caribbean universities, Columbia\'s Earth Institute, and UMass Amherst.</li>' +
